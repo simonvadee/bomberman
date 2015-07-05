@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loadMenu</class>
+ <widget class="QWidget" name="loadMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>636</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QCommandLinkButton" name="home">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>10</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Courier 10 Pitch</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Home</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Bomberman-Desktop_Qt_5_4_1_GCC_64bit-Debug/iconMenu/home.svg</normaloff>../build-Bomberman-Desktop_Qt_5_4_1_GCC_64bit-Debug/iconMenu/home.svg</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="openSave">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>290</y>
+     <width>321</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bomberman</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Open Save</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../build-Bomberman-Desktop_Qt_5_4_1_GCC_64bit-Debug/iconMenu/Very Basic File.png</normaloff>../build-Bomberman-Desktop_Qt_5_4_1_GCC_64bit-Debug/iconMenu/Very Basic File.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
